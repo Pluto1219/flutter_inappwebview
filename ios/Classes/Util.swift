@@ -118,7 +118,7 @@ public class Util {
             if type.contains(.lookupSuggestion) {
                 dataDetectorTypeString.append("LOOKUP_SUGGESTION")
             }
-            if type.contains(WKDataDetectorTypes.lookupSuggestion) {
+            if type.contains(.spotlightSuggestion) {
                 dataDetectorTypeString.append("SPOTLIGHT_SUGGESTION")
             }
         }
